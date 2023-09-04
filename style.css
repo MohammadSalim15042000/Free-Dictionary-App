@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(185, 155, 214);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.main-container{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card{
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10px;
+display: flex;
+flex-direction: column;
+    background-color: white;
+    padding: 30px;
+}
+
+.upper{
+/* border: 2px solid black; */
+height: 15vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.upper input{
+    width: 60%;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid rgb(175, 139, 209);
+    font-size: 1.1rem;
+    /* text-align: center; */
+}
+.upper button{
+    width: 25%;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 10px;
+}
+.sample{
+/* border: 2px solid black; */
+height: 15vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+letter-spacing: 2px;
+
+}
+.sample button{
+    width: 10vw;
+    height: 10vh;
+    border: none;
+    background-color: transparent;
+}
+
+.sample button i{
+    font-size: 1.5rem;
+    color: blueviolet;
+    
+}
+
+
+.pos{
+/* border: 2px solid black; */
+height: 5vh;
+display: flex;
+color: rgb(127, 118, 136);
+/* margin-bottom: 50px; */
+}
+.para{
+    /* border: 2px solid black; */
+    height: 20vh;
+}
+
+.example{
+    border-left: 5px solid blueviolet;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
